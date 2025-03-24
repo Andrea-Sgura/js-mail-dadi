@@ -22,6 +22,24 @@ if(checkEmail == true){
     console.log(`Email trovata`)
 }
 else{
-    console.log(`Email non presente`)
+    console.log(`Email non trovata`)
 }
+
+// Esercizio 2 - Gioco dei dadi
+//Generare un numero random da 1 a 6, sia per il giocatore sia per il computer. Stabilire il vincitore, in base a chi fa il punteggio più alto.
+//Prima di partire a scrivere codice poniamoci qualche domanda: Che ci sia un array da qualche parte? Se dobbiamo confrontare qualcosa che "cosa" ci serve?
+
+
+// Controllare quale sia il numero maggiore
+// Se il numero maggiore è quello dell'utente, ha vinto lui, altrimenti il pc
+
+// Generare un numero random per l'utente
+let userNumber = Math.floor(Math.random() * 6) + 1;
+
+// Generare un numero random per il pc
+let pcNumber = Math.floor(Math.random() * 6) + 1;
+
+
+
+
 
