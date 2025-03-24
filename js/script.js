@@ -10,4 +10,11 @@ let checkEmail = false;
 // Permetto all'utente di inserire la mail
 let userEmail = prompt(`Inserisci la tua email`);
 
+// Ciclo l'array delle mail e controllo se la mail inserita è uguale a quella ciclata. Se uguali imposto la variabile di controllo a true
+for(let i=0; i<emails.length; i++){
+    if(emails[i] === userEmail){
+        checkEmail = true;
+    }
+}
+
 
