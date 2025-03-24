@@ -39,7 +39,13 @@ let userNumber = Math.floor(Math.random() * 6) + 1;
 // Generare un numero random per il pc
 let pcNumber = Math.floor(Math.random() * 6) + 1;
 
-
+// Controllare quale sia il numero maggiore. Se il numero maggiore è quello dell'utente, ha vinto lui, altrimenti il pc
+if(userNumber > pcNumber){
+    console.log(`${userNumber} - ${pcNumber}: Hai Vinto!`)
+}
+else{
+    console.log(`Hai Perso!`)
+}
 
 
 
