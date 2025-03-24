@@ -17,4 +17,11 @@ for(let i=0; i<emails.length; i++){
     }
 }
 
+// Fuori dal for controllo il valore della variabile di controllo
+if(checkEmail == true){
+    console.log(`Email trovata`)
+}
+else{
+    console.log(`Email non presente`)
+}
 
